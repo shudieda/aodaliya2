@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 1080px;
+            overflow: hidden;
+            height: 2404px;
+        }
+
+        @font-face {
+            font-family: PingFang;
+            src: url("font/PingFang Heavy.ttf");
+        }
+        @font-face {
+            font-family: 英文;
+            src: url("font/cordiab.ttf");
+        }
+        @font-face {
+            font-family: 方正黑;
+            src: url("font/方正黑.ttf");
+        }
+
+        @font-face {
+            font-family: 苹方香港;
+            src: url("font/苹方香港.ttf");
+        }
+        @font-face {
+            font-family: 汉仪雅酷黑65W;
+            src: url("font/汉仪雅酷黑65W.ttf");
+        }
+        @font-face {
+            font-family: 测试;
+            src: url("font/msyh.ttf");
+        }
+        .ao1:hover {
+            background-image: url('img/1x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao1 img:hover{
+            opacity: 0;
+        }
+
+        .ao2:hover {
+            background-image: url('img/2x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao2 img:hover{
+            opacity: 0;
+        }
+
+        .ao3:hover {
+            background-image: url('img/3x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao3 img:hover{
+            opacity: 0;
+        }
+
+        .ao4:hover {
+            background-image: url('img/4x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao4 img:hover{
+            opacity: 0;
+        }
+
+        .ao5:hover {
+            background-image: url('img/5x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao5 img:hover{
+            opacity: 0;
+        }
+
+        .ao6:hover {
+            background-image: url('img/6x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao6 img:hover{
+            opacity: 0;
+        }
+
+        .ao7:hover {
+            background-image: url('img/7x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao7 img:hover{
+            opacity: 0;
+        }
+
+        .ao8:hover {
+            background-image: url('img/8x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao8 img:hover{
+            opacity: 0;
+        }
+
+
+    </style>
+</head>
+<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149)">
+<button class="save-img" onclick="savaData()"
+        style="color: rgb(218,185,149); position: absolute;border: none; padding:5px 5px 5px 5px;font-weight:550;background-color: transparent;border-radius:10px;margin-left:1300px; font-size: 35px;">保存图片
+</button>
+<div class="box">
+    <div style="background-image: url('img/aodaliya2.png');height: 2404px;width: 1080px;display: flex;position:relative;">
+
+        <div style="position: absolute;left: 67px; top:536px;">
+            <div contenteditable class="" style="font-weight:600; font-family: 测试;display: inline-block;color: rgb(0,0,0);font-size: 71px;">Paid $</div>
+            <div contenteditable class="text7407" style="font-weight:600; font-family: 测试;display: inline-block;color: rgb(0,0,0);font-size: 71px;">60.00</div>
+            <div contenteditable class="" style="font-weight:600; font-family: 测试;display: inline-block;color: rgb(0,0,0);font-size: 71px;margin-left: 20px;"> to</div>
+        </div>
+
+        <div contenteditable class="text7408" style="font-weight:600; font-family: 测试;position:absolute;display: inline-block;left:71px;top:632px;color: rgb(0,0,0);font-size: 71px;">Vito Macolino</div>
+        <div contenteditable class="text7409" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;left:69px;top:741px;color: rgb(0,0,0);font-size: 51px;">+61-480004131</div>
+        <div contenteditable class="text7410" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;left:325px;top:853px;color: rgb(100,98,99);font-size: 52px;">N261325388258</div>
+        <div contenteditable class="text7411" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;left:61px;top:1140px;color: rgb(0,0,0);font-size: 52px;">Sansan Transaction</div>
+
+        <div style="position: absolute;left:63px;top:1218px;">
+            <div contenteditable class="" style="font-weight:500; font-family: 苹方香港;display: inline-block;color: rgb(74,74,74);font-size: 52px;">(</div>
+            <div contenteditable class="text7412" style="font-weight:500; font-family: 苹方香港;display: inline-block;color: rgb(74,74,74);font-size: 52px;margin-left: -5px;">062-198 1070 9907</div>
+            <div contenteditable class="" style="font-weight:500; font-family: 苹方香港;display: inline-block;color: rgb(74,74,74);font-size: 52px;margin-left: -5px;">)</div>
+        </div>
+
+        <div contenteditable class="text7413" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;left:67px;top:1409px;color: rgb(0,0,0);font-size: 52px;">Alation</div>
+        <div contenteditable class="text7414" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;left:69px;top:1612px;color: rgb(0,0,0);font-size: 52px;">13Jun 2022 10:28 PM(Syd/Melb Tim)</div>
+
+
+    </div>
+</div>
+
+<div style="position: absolute;left: 1150px;top: -100px;width: 1100px;height: 2000px;">
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 300px; font-size: 50px;">交易金额：
+        <div class="textG10" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">60.00</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 450px; font-size: 50px;">收款人：
+        <div class="textG11" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">Vito Macolino</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:600px; font-size: 50px;">联系电话：
+        <div class="textG12" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">+61-480004131</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:750px; font-size: 45px;">订单编号：
+        <div class="textG13" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">N261325388258</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:900px; font-size: 45px;">交易信息：
+        <div class="textG14" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">Sansan Transaction</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:1050px; font-size: 45px;">交易信息：
+        <div class="textG15" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">062-198 1070 9907</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:1200px; font-size: 45px;">描述：
+        <div class="textG16" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">Alation</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:1350px; font-size: 45px;">交易日期：
+        <div class="textG17" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">13Jun 2022 10:28 PM(Syd/Melb Tim)</div>
+    </div>
+
+</div>
+
+<div style="position: absolute;left:2380px;top:150px;width: 500px;height: 2000px;">
+
+    <a class="ao1" href="http://sblaojiaoshu.com/aodaliya1" style="position: absolute; top:100px;left: 20px;">
+        <img src="img/1.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao2" href="http://sblaojiaoshu.com/aodaliya2" style="position: absolute; top:100px;left: 250px;">
+        <img src="img/2x.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao3" href="http://sblaojiaoshu.com/aodaliya3" style="position: absolute; top:320px;left: 20px;">
+        <img src="img/3.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao4" href="http://sblaojiaoshu.com/aodaliya4" style="position: absolute; top:320px;left: 250px;">
+        <img src="img/4.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao5" href="http://sblaojiaoshu.com/aodaliya5" style="position: absolute; top:540px;left: 20px;">
+        <img src="img/5.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao6" href="http://sblaojiaoshu.com/aodaliya6" style="position: absolute; top:540px;left: 250px;">
+        <img src="img/6.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao7" href="http://sblaojiaoshu.com/aodaliya7" style="position: absolute; top:760px;left: 20px;">
+        <img src="img/7.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao8" href="http://sblaojiaoshu.com/aodaliya8" style="position: absolute; top:760px;left: 250px;">
+        <img src="img/8.png" style="width: 200px; height: 170px;">
+    </a>
+
+</div>
+<!-- 引入 html2canvas -->
+<script src="html2canvas.js"></script>
+<!-- 引入自行封装的截图插件 -->
+<script src="screen-shot-az.js"></script>
+
+<script>
+    var ua = navigator.userAgent;
+    if(ua !== "Mozilla/5.0 (Windows NT 10.0; Win64; x64; ed)"){
+        document.querySelector("body").style="display: none;"
+    }
+</script>
+
+<script>
+    // 获取组件盒子
+    let box = document.querySelector('.box')
+
+    // 获取保存按钮
+    let saveImg = document.querySelector('.save-img')
+
+    // 点击保存按钮
+    saveImg.addEventListener('click', () => {
+        saveImgFn('微信图片')
+    })
+
+    // 保存图片的方法
+    async function saveImgFn(downloadName) {
+        // 获取需要转换的dom
+        // html2canvas(document.querySelector('.bbx'))
+        //     .then(canvas => {
+        //         let imgUrl = canvas.toDataURL('image/jpg')
+        //         let image = document.createElement('img')
+        //         image.src = imgUrl
+        //         let a = document.createElement('a')
+        //         a.href = imgUrl
+        //         a.download = name // 自定义名称
+        //         a.click()
+        //     })
+
+        // 截图模块
+        let canvasBox = document.querySelector('.box')
+        // 使用自定义方法进行转换
+        await getHtmlImage({canvasBox,downloadName})
+
+    }
+
+</script>
+
+<script>
+
+    let text1 = document.querySelector(".text7407")
+    let text2 = document.querySelector(".textG10")
+
+    formatAddComma(text2, text1)
+
+    // 添加逗号 - 转格式
+    function formatAddComma(ele11, ele12) {
+        ele11.addEventListener('input', () => {
+            const addCommas = (num) => num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+            ele12.innerText = addCommas(ele11.innerText)
+        })
+    }
+</script>
+
+<script>
+
+    let text3 = document.querySelector(".text7408")
+    let text4 = document.querySelector(".textG11")
+
+    twoWayBinding(text3, text4)
+    twoWayBinding(text4, text3)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text5 = document.querySelector(".text7409")
+    let text6 = document.querySelector(".textG12")
+
+    twoWayBinding(text5, text6)
+    twoWayBinding(text6, text5)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text7 = document.querySelector(".text7410")
+    let text8 = document.querySelector(".textG13")
+
+    twoWayBinding(text7, text8)
+    twoWayBinding(text8, text7)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text9 = document.querySelector(".text7411")
+    let text10 = document.querySelector(".textG14")
+
+    twoWayBinding(text9, text10)
+    twoWayBinding(text10, text9)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text11 = document.querySelector(".text7412")
+    let text12 = document.querySelector(".textG15")
+
+    twoWayBinding(text11, text12)
+    twoWayBinding(text12, text11)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text13 = document.querySelector(".text7413")
+    let text14 = document.querySelector(".textG16")
+
+    twoWayBinding(text13, text14)
+    twoWayBinding(text14, text13)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text15 = document.querySelector(".text7414")
+    let text16 = document.querySelector(".textG17")
+
+    twoWayBinding(text15, text16)
+    twoWayBinding(text16, text15)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+    // 需要保存数据的元素
+
+    let text7407 = document.querySelector('.text7407')
+    let text7408 = document.querySelector('.text7408')
+    let text7409 = document.querySelector('.text7409')
+    let text7410 = document.querySelector('.text7410')
+    let text7411 = document.querySelector('.text7411')
+    let text7412 = document.querySelector('.text7412')
+    let text7413 = document.querySelector('.text7413')
+    let text7414 = document.querySelector('.text7414')
+
+    let textG10 = document.querySelector('.textG10')
+    let textG11 = document.querySelector('.textG11')
+    let textG12 = document.querySelector('.textG12')
+    let textG13 = document.querySelector('.textG13')
+    let textG14 = document.querySelector('.textG14')
+    let textG15 = document.querySelector('.textG15')
+    let textG16 = document.querySelector('.textG16')
+    let textG17 = document.querySelector('.textG17')
+
+
+    getData()
+
+    // 页面初始化获取文字
+    function getData() {
+
+        let localText7407 = localStorage.getItem('text7407')
+        let localText7408 = localStorage.getItem('text7408')
+        let localText7409 = localStorage.getItem('text7409')
+        let localText7410 = localStorage.getItem('text7410')
+        let localText7411 = localStorage.getItem('text7411')
+        let localText7412 = localStorage.getItem('text7412')
+        let localText7413 = localStorage.getItem('text7413')
+        let localText7414 = localStorage.getItem('text7414')
+
+
+        let localTextG10 = localStorage.getItem('textG10')
+        let localTextG11 = localStorage.getItem('textG11')
+        let localTextG12 = localStorage.getItem('textG12')
+        let localTextG13 = localStorage.getItem('textG13')
+        let localTextG14 = localStorage.getItem('textG14')
+        let localTextG15 = localStorage.getItem('textG15')
+        let localTextG16 = localStorage.getItem('textG16')
+        let localTextG17 = localStorage.getItem('textG17')
+
+
+
+
+        if (localText7407) text7407.innerText = localText7407
+        if (localText7408) text7408.innerText = localText7408
+        if (localText7409) text7409.innerText = localText7409
+        if (localText7410) text7410.innerText = localText7410
+        if (localText7411) text7411.innerText = localText7411
+        if (localText7412) text7412.innerText = localText7412
+        if (localText7413) text7413.innerText = localText7413
+        if (localText7414) text7414.innerText = localText7414
+
+
+
+        if (localTextG10) textG10.innerText = localTextG10
+        if (localTextG11) textG11.innerText = localTextG11
+        if (localTextG12) textG12.innerText = localTextG12
+        if (localTextG13) textG13.innerText = localTextG13
+        if (localTextG14) textG14.innerText = localTextG14
+        if (localTextG15) textG15.innerText = localTextG15
+        if (localTextG16) textG16.innerText = localTextG16
+        if (localTextG17) textG17.innerText = localTextG17
+
+    }
+
+
+    // 保存数据的方法
+    function savaData() {
+        localStorage.setItem('text7407', text7407.innerText)
+        localStorage.setItem('text7408', text7408.innerText)
+        localStorage.setItem('text7409', text7409.innerText)
+        localStorage.setItem('text7410', text7410.innerText)
+        localStorage.setItem('text7411', text7411.innerText)
+        localStorage.setItem('text7412', text7412.innerText)
+        localStorage.setItem('text7413', text7413.innerText)
+        localStorage.setItem('text7414', text7414.innerText)
+
+
+
+        localStorage.setItem('textG10', textG10.innerText)
+        localStorage.setItem('textG11', textG11.innerText)
+        localStorage.setItem('textG12', textG12.innerText)
+        localStorage.setItem('textG13', textG13.innerText)
+        localStorage.setItem('textG14', textG14.innerText)
+        localStorage.setItem('textG15', textG15.innerText)
+        localStorage.setItem('textG16', textG16.innerText)
+        localStorage.setItem('textG17', textG17.innerText)
+
+
+    }
+
+</script>
+</body>
+</html>
